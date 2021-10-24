@@ -117,17 +117,17 @@ function moveCamera() {
 document.body.onscroll = moveCamera;
 moveCamera();
 
-let loader = new THREE.GLTFLoader();
-loader.load("./3d/scene.gltf", function(gltf){
-    scene.add(gltf.scene);
-    // to animate house
-    house = gltf.scene.children[0]; 
-    house.position.z = 0;
-    house.position.y = -5;
-    house.position.x = -20;
-    gltf.scene.scale.set(15,15,15) // scale here
-    animate();
-});
+// let loader = new THREE.GLTFLoader();
+// loader.load("./3d/scene.gltf", function(gltf){
+//     scene.add(gltf.scene);
+//     // to animate house
+//     house = gltf.scene.children[0]; 
+//     house.position.z = 0;
+//     house.position.y = -5;
+//     house.position.x = -20;
+//     gltf.scene.scale.set(15,15,15) // scale here
+//     animate();
+// });
 
 
 
@@ -151,7 +151,7 @@ function animate() {
 
   moon.rotation.x += 0.005;
 
-  house.rotation.z += 0.005;
+  // house.rotation.z += 0.005;
   // controls.update();
 
   renderer.render(scene, camera);
