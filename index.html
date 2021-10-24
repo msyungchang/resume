@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yung's Website</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <canvas id="bg"></canvas>   
+
+    <main>
+
+      <header>
+        <h1>Yung Feng Chang</h1>
+        <p>🚀 Welcome to my Resume!</p>
+      </header>
+
+
+      <blockquote>
+        <p>I love 3D computer vision geometry projects!</p>
+      </blockquote>
+
+      <section>
+        <h2>📜 Resume </h2>
+        <p>
+          UCLA graduated student.
+        </p>
+
+      </section>
+
+      <section class="light">
+        <h2>👩🏽‍🚀 Projects</h2>
+
+        <p>
+          Velydyne Lidar Registration
+        </p>
+        <p>
+          Wireless device for patient health prediction
+        </p>
+
+        <h2>🏆 Accomplishments</h2>
+
+        <p>
+          ASME competition : Malaysia
+        </p>
+        <p>
+          Eurobot competition : France
+        </p>
+        <p>
+          Eurobot Competition : United States
+        </p>
+
+
+      </section>
+
+      <blockquote>
+        <p>Time is money <br>-Advice to a Young Tradesman</p>
+      </blockquote>
+
+      <section class="left">
+        <h2>🌮 Work History</h2>
+
+        <h3>Microsoft</h3>
+        <h4>Software Engineer ll - Bellevue, WA and Taipei,Taiwan</h4>
+        <p>
+          Deployed deep learning onnxruntime models to Nivida Jetson Nano, NXP iMX8M and Microsoft Teams Room.
+          <br>Developed AI device manager and cloud client to update deep learning models version automatically for multiple devices.
+          <br>Published computer vision and audio models to Azure Cloud for global Microsoft API and SDK release.
+          <br>Built Yocto BSP to customize linux environment for embedding systems.
+          <br>Implemented CI/CD pipeline for deployment and supported new version software releases to production with lowest downtime.
+          <br>Collaborated with China and US vendors to integrate new features into the commercialized device
+        </p>
+        <h3>Qualcomm</h3>
+        <h4>Senior Computer Vision Engineer - Santa Clara, CA</h4>
+        <p>
+          Researched and designed refinement neural networks for optical flow and depth map using Tensorflow and Python.
+          <br>Researched and developed 3D shape reconstruction via multi-view convolutional networks using Pytorch and CUDA.
+          <br>Implemented bundle adjustment for multi-view reconstruction to reduce projection error through OpenCV, Ceres and C++.
+          <br>Applied Semi-global matching based optical flow for accelerating structure from motion reconstruction speed.
+          <br>Established a pipeline for data collection, data cleaning and defined annotation requirements to build the team’s custom dataset.
+          <br>Programmed deep learning models inference pipeline code with CUDA and Qualcomm Snapdragon Neural Processing Unit (NPU) for use in level 3 / level 4 autonomous driving system.
+        </p>
+        <h3>Seagate</h3>
+        <h4>Senior Software Engineer - Fremont, CA</h4>
+        <p>
+          Developed a vision-based robotic system for next generation hard disk (60 ~ 100 TB) mass production.
+          <br>Applied object tracking through Cognex VisionPro library and customized computer vision techniques through C++ and C#.
+          <br>Calibrated coordinate between camera and robot world through transformation matrix.
+          <br>Created wizards and GUI components for visualizing real-time tracking and assembly process.
+          <br>Participated in Agile development mode and issue management with Jira.
+          <br>Managed the team project through SVN and TFS subversion control.
+        </p>
+        <h3>Apple</h3>
+        <h4>Computer Vision Software Engineer - Cupertino, CA </h4>
+        <p>
+          Developed a robotic vision system for Apple products assembly and inspection.
+          <br>Implemented image processing algorithms to detect key features of Apple TV parts.
+          <br>Applied deep learning models to classify different types of defects through TensorFlow and Python.
+          <br>Designed a human machine interface for viewing automated optical inspection process.
+          <br>Participated in Agile development mode and issue management with Jira.
+          <br>Communicated with Apple product design team and China vendors to solve technical problems in mass production.
+        </p>
+
+      </section>
+
+      <blockquote>
+        <p>Thanks for viewing my resume!</p>
+      </blockquote>
+
+    </main>
+  
+    
+    <div class="scene"></div>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.115/build/three.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.115/examples/js/loaders/GLTFLoader.js"></script>
+    <script src = "app.js"></script>
+    <script type="module" src="./main.js"></script>
+
+    
+  </body>
+</html>
